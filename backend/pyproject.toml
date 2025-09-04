@@ -1,0 +1,20 @@
+[project]
+name = "backend"
+version = "0.1.0"
+description = ""
+authors = []
+readme = "README.md"
+requires-python = ">=3.13,<4.0"
+dependencies = [
+    "langchain[google-genai] (>=0.3.27,<0.4.0)",
+    "pypdf (>=6.0.0,<7.0.0)",
+    "langchain-chroma (>=0.2.5,<0.3.0)",
+    "chromadb (>=1.0.20,<2.0.0)",
+    "langchain-community (>=0.3.29,<0.4.0)",
+    "fastapi[standard] (>=0.116.1,<0.117.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

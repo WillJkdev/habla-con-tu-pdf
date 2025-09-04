@@ -1,0 +1,27 @@
+# Entornos virtuales
+.venv/
+env/
+venv/
+
+# Archivos de entorno
+.env
+
+# Archivos de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Bases de datos de Chroma
+chroma_db/
+data/pdfs
+
+# Archivos temporales
+*.tmp
+*.swp
+.DS_Store
+
+# Archivos de IDEs
+.vscode/
+.idea/
