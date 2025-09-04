@@ -56,8 +56,8 @@ Este proyecto está estructurado en dos partes principales:
 1. **Clona el repositorio**
 
    ```bash
-   git clone <url-del-repositorio>
-   cd habla_con_tu_PDF
+   git clone https://github.com/WillJkdev/habla-con-tu-pdf.git
+   cd habla-con-tu-pdf
    ```
 
 2. **Configura el Backend**
